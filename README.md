@@ -2,9 +2,9 @@
 
 ## Método A: filterAndSortSupplies.
 
-Implementación utilizada: TreeSet.
+Implementación utilizada para el Set: TreeSet.
 
-Explicación: Debe mantener la unicidad de los elementos, sin duplicados y manteniendolos ordenados con un comparador personalizado. 
+Explicación: Para el Set se utilizó un TreeSet porque debe mantener la unicidad de los elementos, sin duplicados y manteniéndolos ordenados con un comparador personalizado. 
 
 ## Método B: groupCodesByStock.
 
