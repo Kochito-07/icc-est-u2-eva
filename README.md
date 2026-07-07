@@ -1,18 +1,13 @@
-## Getting Started
+# Evaluacion Set y Map.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Método A: filterAndSortSupplies.
 
-## Folder Structure
+Implementación utilizada: TreeSet.
+Explicación: Debe mantener la unicidad de los elementos, sin duplicados y manteniendolos ordenados con un comparador personalizado. 
 
-The workspace contains two folders by default, where:
+## Método B: groupCodesByStock.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Implementación utilizada para el Map: TreeMap.
+Implementación utilizada para los Sets internos: TreeSet.
+Explicación: para el Map se eligió un TreeMap porque los requerimientos estan exigidos estrictamente por claves ("HIGH", "LOW", "MEDIUM"), se mantuvieron ordenados alfabéticamente.
+Para las colecciones internas se eligió un TreeSet porque se tenía que asegurar que el año (yyy), no tuviera repetidos y se mantuvieran ordenados de forma ascendente dentro del grupo de stock.
