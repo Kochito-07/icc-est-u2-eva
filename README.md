@@ -10,7 +10,8 @@ Explicación: Para el Set se utilizó un TreeSet porque debe mantener la unicida
 
 Implementación utilizada para el Map: TreeMap.
 
+Explicación: Para el Map se eligió un TreeMap porque los requerimientos estan exigidos estrictamente por claves ("HIGH", "LOW", "MEDIUM") además de mantenerse ordenados alfabéticamente.
+
 Implementación utilizada para los Sets internos: TreeSet.
 
-Explicación: para el Map se eligió un TreeMap porque los requerimientos estan exigidos estrictamente por claves ("HIGH", "LOW", "MEDIUM"), se mantuvieron ordenados alfabéticamente.
-Para las colecciones internas se eligió un TreeSet porque se tenía que asegurar que el año (yyy), no tuviera repetidos y se mantuvieran ordenados de forma ascendente dentro del grupo de stock.
+Explicación: Para las colecciones internas se eligió un TreeSet porque se tenía que asegurar que el año (yyy), no tuviera repetidos y se mantuvieran ordenados de forma ascendente dentro del grupo de stock.
